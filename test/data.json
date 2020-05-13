@@ -1,0 +1,55 @@
+{
+    "delivered": {
+        "signature": {
+            "timestamp": "1585491063",
+            "token": "83a8759dd23236b5bb2441de48a9e134afc46ac96b65db8c3a",
+            "signature": "e906e30ed6b56320669b7f5ff04a70ee41916dffb3c21a260202f32411201e45"
+        },
+        "event-data": {
+            "tags": ["my_tag_1", "my_tag_2"],
+            "timestamp": 1521472262.908181,
+            "storage": {
+                "url": "https://se.api.mailgun.net/v3/domains/sandboxa26b183244424b108524149765c8bac0.mailgun.org/messages/message_key",
+                "key": "message_key"
+            },
+            "envelope": {
+                "sender": "bob@sandboxa26b183244424b108524149765c8bac0.mailgun.org",
+                "transport": "smtp",
+                "targets": "alice@example.com"
+            },
+            "recipient-domain": "example.com",
+            "id": "CPgfbmQMTCKtHW6uIWtuVe",
+            "campaigns": [],
+            "flags": {
+                "is-routed": false,
+                "is-authenticated": true,
+                "is-system-test": false,
+                "is-test-mode": false
+            },
+            "log-level": "info",
+            "message": {
+                "headers": {
+                    "to": "Alice <alice@example.com>",
+                    "message-id": "20130503182626.18666.16540@sandboxa26b183244424b108524149765c8bac0.mailgun.org",
+                    "from": "Bob <bob@sandboxa26b183244424b108524149765c8bac0.mailgun.org>",
+                    "subject": "Test delivered webhook"
+                }
+            },
+            "recipient": "alice@example.com",
+            "event": "delivered",
+            "delivery-status": {
+                "tls": true,
+                "mx-host": "smtp-in.example.com",
+                "attempt-no": 1,
+                "description": "",
+                "session-seconds": 0.4331989288330078,
+                "utf8": true,
+                "code": 250,
+                "message": "OK",
+                "certificate-verified": true
+            }
+        },
+        "_id": "5e80ac79d5a00400075e3292",
+        "__v": 0
+    }
+}

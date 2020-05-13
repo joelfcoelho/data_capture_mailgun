@@ -1,0 +1,30 @@
+{
+  "name": "receeve-code-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha test/*.js --timeout 10000 --exit --recursive"
+  },
+  "keywords": [],
+  "author": "Joel Coelho",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.648.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mailgun-js": "^0.22.0",
+    "mocha": "^7.1.1",
+    "mongoose": "^5.9.6",
+    "mongoose-id-validator": "^0.5.4",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.6",
+    "nodemailer-mailgun-transport": "^2.0.0",
+    "serverless-http": "^2.3.2"
+  }
+}
